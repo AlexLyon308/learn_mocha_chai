@@ -4,20 +4,20 @@ import { assert, expect } from 'chai';
 describe('JS learn Chai Mocha ', function() {
 
   before('Execute Before All Tests', function(){
-    console.log('Execute Before All Tests');
+    console.log('All tests are being executed');
 });
 
 beforeEach('Execute Before Each Test', function(){
-    console.log('Execute Before Each Test');
+    console.log('The test has started');
 });
 
 after('Execute After All Tests', function(){
-    console.log('Execute After All Tests');
+    console.log('All tests have finished and showed the final result');
 
 });
 
 afterEach('Execute After Each Test', function(){
-    console.log('Execute Before Each Test');
+    console.log('The test has finished and showed result');
 });
 
   it('test 1', function () {
