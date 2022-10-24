@@ -1,0 +1,33 @@
+git clone 
+copy repo from remote repo to our local site
+
+git branch -l -a 
+Show the list of available branches in local repo 
+
+git checkout -b "branch name"
+Generate new branch with current source code 
+
+git log 
+Show history of change in current branch 
+
+git checkout "branch name" 
+Switch to selected branch  
+
+git status 
+Check status and latest change for current branch 
+
+git merge "name of branch to be merged into" 
+Merge current branch into a targeted branch 
+
+git add "file name" 
+Put all the change of the file into staging area so we can track 
+
+git commmit -m "message content"  
+Save and apply the change we make to the file , including with message content 
+
+git restore 
+
+git revert 
+
+git reset 
+

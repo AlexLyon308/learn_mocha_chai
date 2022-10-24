@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "chai": "^4.3.6",
+    "esm": "^3.2.25",
+    "mocha": "^10.1.0"
+  },
+  "scripts": {
+    "test": "npm run test-node",
+  
+    "test-node": "mocha --recursive './test/js_test.js' --require esm"
+  },
+  "type": "module"
+}
