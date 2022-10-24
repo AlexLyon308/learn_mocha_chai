@@ -1,4 +1,4 @@
-import person from "./message.js";
+import person from "./js_collection.js";
 import { assert, expect } from 'chai';
 
 describe('JS learn Chai Mocha ', function() {
