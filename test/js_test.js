@@ -5,7 +5,7 @@ describe('JS learn Chai Mocha ', function() {
 
   it('test 1', function () {
       
-      expect(person.fullname()).to.equal("Avita Lisbaron");
+      expect(person.fullName()).to.equal("Avita Lisbaron");
       
   });
 

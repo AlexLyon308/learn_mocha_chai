@@ -1,10 +1,13 @@
 const person = {
-   firstname : "Avita",
-   lastname : "Lisbaron",
+   firstName : "Avita",
+   lastName : "Lisbaron",
    age : 24,
-   fullname: function () {
+   fullName: function () {
     return this.firstName + " " + this.lastName;
   },
   };
   
+
   export default person;
+
+  console.log(person.fullName());
