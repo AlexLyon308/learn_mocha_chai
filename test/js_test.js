@@ -11,7 +11,7 @@ describe('JS learn Chai Mocha ', function() {
 
   it('test 2', function () {
       
-    assert.equal(person.firstname + " " + person.lastname,"Avita Lisbaron","The firstname is not correct");
+    assert.equal(person.firstName + " " + person.lastName,"Avita Lisbaron","The firstname is not correct");
 
 });
 });
