@@ -1,9 +1,10 @@
 import person from "./js_collection.js";
+import people from "./js_collection2.js";
 import { assert, expect } from 'chai';
 
 describe('JS learn Chai Mocha ', function() {
   
-  this.timeout(1000); 
+  this.timeout(10000); 
 
   before('Execute Before All Tests', function(){
     console.log('All tests are being executed');
@@ -24,14 +25,14 @@ afterEach('Execute After Each Test', function(){
     console.log('The test has finished and showed result');
 });
 
-  it('test 1', function (done) {
+  it('Test 1 : Object test with expect', function (done) {
       
       expect(person.fullName()).to.equal("Avita Lisbaron");
       setTimeout(done,500);
 
   });
 
-  it('test 2', function (done) {
+  it('Test 2 : Object test with assert', function (done) {
        
     assert.equal(person.firstName + " " + person.lastName,"Avita Lisbaron","The firstname is not correct");
     setTimeout(done,500); 
