@@ -19,3 +19,5 @@ class people {
 
   let people1 = new people("Giulia", "Ponzechi", 1998);
     console.log(people1.getFullName() + " is " + people1.age() + " years old ");
+
+    export {people, people1};
