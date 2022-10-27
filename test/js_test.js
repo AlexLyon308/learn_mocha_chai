@@ -1,6 +1,6 @@
 import person from "./js_collection.js";
 import { people , people1 } from "./js_collection2.js";
-import { assert, expect, should, } from 'chai';
+import { assert, expect, } from 'chai';
 
 
 describe('JS learn Chai Mocha ', function() {
