@@ -6,7 +6,6 @@
   },
   "scripts": {
     "test": "npm run test-node",
-  
     "test-node": "mocha --recursive './test/js_test.js' --require esm"
   },
   "type": "module"

@@ -1,0 +1,7 @@
+Run these command line below in terminal to install required package 
+ npm install mocha 
+ npm install chai 
+ npm install esm 
+
+ Run this command to run test 
+ npm test  
